@@ -22,8 +22,7 @@ h1{
 main {
     transition: margin-left 0.3s ease;
     margin-left: 0;
-    display: flex;
-    justify-content: center;
+    
 }
 
 main.sidebar-open {
@@ -32,4 +31,11 @@ main.sidebar-open {
 
 a {
     text-decoration: none;
+}
+
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
 }
